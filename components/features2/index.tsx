@@ -90,7 +90,7 @@ export const Features2 = () => {
                     color: "$accents8",
                   }}
                 >
-                  Don't have time to find talents? Leave it to us to help you
+                  No time to find talents? Leave it to us to help you
                   find qualified candidates to run your business.
                 </Text>
               </Flex>

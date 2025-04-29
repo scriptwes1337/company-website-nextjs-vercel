@@ -3,6 +3,7 @@ import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
+import Image from 'next/image';
 
 export const Hero = () => {
    return (
@@ -120,7 +121,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.png" />
+               <Image src="mock.png" alt="logo" height={50} width={50}/>
             </Box>
          </Flex>
          <Divider
