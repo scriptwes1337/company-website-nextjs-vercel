@@ -2,7 +2,7 @@ import {Button, Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {Flex} from '../styles/flex';
 
-export const Trial = () => {
+export const CTA = () => {
    return (
       <>
          <Flex
@@ -14,7 +14,7 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Start your free trials</Text>
+            <Text h3>Optimize your business now</Text>
             <Text
                span
                css={{
@@ -23,11 +23,10 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-               condimentum, nisl
+               Every second gone, is potential revenue wasted.
             </Text>
 
-            <Button>Button</Button>
+            <Button color={"success"}>Book Appointment</Button>
          </Flex>
 
          <Divider

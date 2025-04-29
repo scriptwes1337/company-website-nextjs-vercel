@@ -174,8 +174,8 @@ export const Testimonials = () => {
                   },
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               <Text span css={{color: 'green'}}>
+                  Believe our clients
                </Text>
                <Text h3>Testimonials</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
@@ -184,7 +184,7 @@ export const Testimonials = () => {
                   nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
                   lacinia,
                </Text>
-               <Button>Read case studies</Button>
+               <Button color="success">Read case studies</Button>
             </Flex>
          </Flex>
 

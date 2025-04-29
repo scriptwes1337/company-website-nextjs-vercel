@@ -21,10 +21,10 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               <Text span css={{color: 'green'}}>
+                  Ideas Into Software
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Custom Software Development</Text>
                <Text
                   span
                   css={{
@@ -33,50 +33,8 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  You might need a custom solution. Off-the-shelf products might not fit your need. Let us develop your software ideas for you.
                </Text>
-            </Flex>
-            <Flex
-               align={'center'}
-               justify={'center'}
-               wrap={'wrap'}
-               css={{
-                  gap: '1rem',
-                  pt: '$14',
-               }}
-            >
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
-                           <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
-                           <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
             </Flex>
             <Flex
                align={'center'}
@@ -92,11 +50,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Powered by Open-Source</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              We like using open source technology since its secure and free, hence reducing your total costs. It also greatly speeds up the development process.
                            </Text>
                         </Flex>
                      </Flex>
@@ -107,11 +63,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Dedicated Team</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Our team is dedicated to help you through all stages of development, from ideating, developing, deploying, and even post-launch support.
                            </Text>
                         </Flex>
                      </Flex>

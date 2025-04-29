@@ -43,24 +43,16 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     We help you{' '}
                   </Text>
                   <Text
                      h1
                      css={{
                         display: 'inline',
                      }}
+                     color="green"
                   >
-                     for{' '}
-                  </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
-                     }}
-                     color="primary"
-                  >
-                     React developers
+                     grow your business
                   </Text>
                </Box>
 
@@ -72,8 +64,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  Learn about how our solutions can cut your costs while maximizing your results.
                </Text>
 
                <Flex
@@ -83,8 +74,7 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+               <Button color={"success"}>Book Appointment</Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -102,7 +92,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> No credit card required.
+                     <CheckIcon /> Free 1 hour consult.
                   </Flex>
                   <Flex
                      css={{
@@ -110,7 +100,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> 14-day free trial.
+                     <CheckIcon /> No commitment.
                   </Flex>
                   <Flex
                      css={{
@@ -118,7 +108,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Cancel anytime.
+                     <CheckIcon /> For all industries.
                   </Flex>
                </Flex>
             </Box>
