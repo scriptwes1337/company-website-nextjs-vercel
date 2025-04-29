@@ -9,14 +9,15 @@ import {Features3} from '../components/features3';
 import {Testimonials} from '../components/tesminonials';
 import {Footer} from '../components/footer';
 import { CTA } from '../components/cta/cta';
+import Head from 'next/head';
 
 const Home: NextPage = () => {
    return (
      <div>
-       <head>
+       <Head>
          <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
          <script src="https://files.bpcontent.cloud/2025/04/29/06/20250429060643-FBG5H2AL.js"></script>
-       </head>
+       </Head>
        <Layout>
          <Nav />
          <Box as="main">
