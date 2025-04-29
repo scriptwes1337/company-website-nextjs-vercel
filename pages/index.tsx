@@ -15,8 +15,8 @@ const Home: NextPage = () => {
    return (
      <div>
        <Head>
-         <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
-         <script src="https://files.bpcontent.cloud/2025/04/29/06/20250429060643-FBG5H2AL.js"></script>
+         <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js" async></script>
+         <script src="https://files.bpcontent.cloud/2025/04/29/06/20250429060643-FBG5H2AL.js" async></script>
        </Head>
        <Layout>
          <Nav />
